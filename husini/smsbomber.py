@@ -2,7 +2,6 @@ import time
 from selenium import webdriver
 from user_agent import user_agent
 
-import string
 
 class Bomber(object):
 

